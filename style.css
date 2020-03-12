@@ -6,6 +6,19 @@ body {
     color: #505962;
 }
 
+@mixin clearfix { 
+	*zoom:1;
+    &:before, &:after { 
+		content: ""; 
+		display: table; 
+	}
+    &:after { 
+		clear: both; 
+	}
+}
+
+
+
 /* Navigation */
 
 /* Landing Page */

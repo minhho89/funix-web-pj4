@@ -1,0 +1,58 @@
+
+p {
+    font-size: 1rem;
+}
+
+.about-caption {
+    width: 30%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    color: black;
+    right: 5%;
+    font-family: 'Source Code Pro',serif;
+
+}
+
+
+.home-inner {
+    background-image: url(../img/about/about-hero.jpg);
+    /* height: 100%; */
+}
+
+.about-intro {
+    font-family: 'Source Code Pro',serif;
+}
+
+
+@media (max-width: 992px) {
+    .home-inner {
+        background-position:20% center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+    .about-caption {
+        width: 90%;
+        top: 30%;
+    }
+    .container-fluid {
+        padding-left: 0;
+    }
+
+    .about-caption {
+        color:white;
+        top: 40%;
+        background-color:black; opacity: 60%;
+    }
+    .home-inner {
+        background-image: url(../img/me-edit.jpg);
+        background-position:center center !important;
+    }    
+}
+
+@media (min-width: 993px) {}

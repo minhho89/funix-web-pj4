@@ -6,6 +6,7 @@
     <title>minhho89</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="..//style.css">
+    <link rel="stylesheet" href="porfilio-style.css">
     <link rel="stylesheet" href="..//fixed.css">
     
 </head>
@@ -27,10 +28,10 @@
                     <a href="about.html" class="nav-link">about</a>
                 </li>
                 <li class="nav-item">
-                    <a href="resume.html" class="nav-link active">resume</a>
+                    <a href="resume.html" class="nav-link">resume</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link active">porfilio</a>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">porfilio</a>
                 </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link">contact</a>
@@ -38,9 +39,56 @@
             </ul>
         </div>
     </nav> <!-- End of Navigation -->
-
     <!-- end Navs -->
-      
+     
+    <!-- Start Video Hero -->
+	<section class="wrapper">
+		<div class="video-wrap">
+			<video src="../video/cover-video.mp4" playsinline autoplay muted loop></video>
+		</div>
+		<div class="overlay"></div>
+		<div class="landing-text">
+			<h1>MY PORFILIO</h1>
+			<h3>Welcome to my Porfilio</h3>
+		</div>
+	</section>
+    <!-- End Video Hero -->
+
+    <!-- Start Latest Work -->
+    <div class="jumbotron">
+        <h2 class="display-5">Latest Work</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam animi magni quo tempora unde, vel, corporis id iste, reprehenderit voluptatem fugit placeat dignissimos? Impedit minima nobis ab commodi ea id.</p>
+        <hr class="my-2">
+        <div class="row">
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" data-src="holder.js/100x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" data-src="holder.js/100x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Title</h4>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- End Latest Work -->
+ 
+    
+
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta sequi commodi libero mollitia cum possimus nemo velit cumque tempora. Recusandae eaque ratione libero similique ad non ipsam alias reiciendis.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta sequi commodi libero mollitia cum possimus nemo velit cumque tempora. Recusandae eaque ratione libero similique ad non ipsam alias reiciendis.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta sequi commodi libero mollitia cum possimus nemo velit cumque tempora. Recusandae eaque ratione libero similique ad non ipsam alias reiciendis.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta sequi commodi libero mollitia cum possimus nemo velit cumque tempora. Recusandae eaque ratione libero similique ad non ipsam alias reiciendis.</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta sequi commodi libero mollitia cum possimus nemo velit cumque tempora. Recusandae eaque ratione libero similique ad non ipsam alias reiciendis.</p>
     <!-- Start Footer -->
     <footer>
         <div class="container">
@@ -93,6 +141,24 @@
     <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
     <!-- End of Script Source Files -->
 </body>
 </html>

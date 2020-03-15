@@ -103,7 +103,9 @@ footer .svg-inline--fa.fa-w-14 {
 
 /* Media Query */
 @media (max-width: 576px) {
-	
+	.caption {
+        top: 10%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -111,5 +113,8 @@ footer .svg-inline--fa.fa-w-14 {
 }
 
 @media (min-width: 993px) {
-
+    .jumbotron {
+        width: 90%;
+        margin: auto;
+    }
 }

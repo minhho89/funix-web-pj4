@@ -1,4 +1,11 @@
-
+/* Sửa lỗi hiển thị phần trắng bên phải page */
+html, body {
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 section {
 	max-width: 57%;
 	margin: auto;
@@ -53,7 +60,13 @@ h3 {
 	font-size: 140%;
 	background: rgb(114, 113, 63);
 	padding: 2% 3%;
-	border-radius: 5px;
+    border-radius: 5px;
+    border-color: rgb(114, 113, 63);
+}
+
+.btn:hover {
+    background: rgb(182, 180, 101);
+    border-color: rgb(182, 180, 101);
 }
 p {
 	font-size: 130%;
@@ -65,11 +78,21 @@ p {
     body {
         width: 100%;
     }
+    .card {
+        width: 50%;
+    }
 }
 
 @media (max-width: 576px) {
     body {
         width: 100%;
     }
+    .card {
+        width: 100%;
+    }
 }
-@media (min-width: 993px) {}
+@media (min-width: 993px) {
+    .card {
+        width: 50%;
+    }
+}

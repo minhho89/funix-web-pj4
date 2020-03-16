@@ -30,8 +30,8 @@ p {
 
 @media (max-width: 576px) {
 	footer p {
-		font-size: 1rem;
-	}
+		font-size: 0.8rem;
+	}   
 }
 
 @media (max-width: 992px) {

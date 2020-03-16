@@ -85,7 +85,7 @@ p {
         width: 50%;
 	}
 	footer p {
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 
 }
@@ -96,7 +96,10 @@ p {
     }
     .card {
         width: 100%;
-    }
+	}
+	.landing-text h1 {
+		font-size: 300%;
+	}
 }
 @media (min-width: 993px) {
     .card {

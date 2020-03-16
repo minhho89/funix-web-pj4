@@ -53,6 +53,9 @@ p {
         background-image: url(../img/me-edit.jpg);
         background-position:center center !important;
     }    
+    footer p {
+		font-size: 0.8rem;
+	}
 }
 
 @media (min-width: 993px) {}

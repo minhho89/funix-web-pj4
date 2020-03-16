@@ -77,10 +77,17 @@ p {
 @media (max-width: 992px) {
     body {
         width: 100%;
-    }
+	}
+	section {
+		margin-left:3rem;
+	}
     .card {
         width: 50%;
-    }
+	}
+	footer p {
+		font-size: 1rem;
+	}
+
 }
 
 @media (max-width: 576px) {

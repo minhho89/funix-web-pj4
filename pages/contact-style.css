@@ -1,0 +1,43 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/* End--Sửa lỗi hiển thị phần trắng bên phải page */
+.btn {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 140%;
+	background: rgb(114, 113, 63);
+	padding: 2% 3%;
+    border-radius: 5px;
+    border-color: rgb(114, 113, 63);
+}
+
+.btn:hover {
+    background: rgb(182, 180, 101);
+    border-color: rgb(182, 180, 101);
+}
+p {
+	font-size: 130%;
+	padding: 3%;
+}
+
+/* Media Query */
+
+@media (max-width: 576px) {
+	footer p {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 992px) {
+	
+}
+
+@media (min-width: 993px) {
+
+}
